@@ -1,0 +1,108 @@
+@import (reference) "../../style/mixin.less";
+@import "../../assets/iconfonts/iconfont.css";
+
+.pro-list-con{
+  padding-top: @common-wd;
+  .pro-list-title{
+    color:#975ec9;
+    width:100%;
+    height:60px;
+    background: #fff;
+    font-size: 0.5rem;
+    line-height: 60px;
+    padding-left:20px;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+.pro-list-ul{
+  background-color: #fff;
+  .pro-item{
+    min-height: 140px;
+    padding: @common-wd;
+    border-bottom: 1PX solid #eee;
+    .flex(space-between);
+    .pro-item-select{
+      .flex;
+      .pro-select-status{
+        .font(45px, #ccc);
+      }
+      .pro-selected{
+        color: @base-color;
+      }
+      .pro-name{
+        .font(36px);
+        margin-left: 20px;
+        margin-top: 12px;
+      }
+      .introduce-style{
+        font-size: 0.4rem;
+        margin-left:20px;
+        margin-top:10px;
+        color:#333;
+      }
+    }
+    .pic-style{
+        width:60%;
+        height:220px;
+        background-color: aqua;
+        float:right;
+        background-size:100%;
+    }
+    .bg-a{
+      width:60%;
+      height:220px;
+      background-color: aqua;
+      float:right;
+      background-size:100%;
+      background-image: url(./img/09_40_58__12_04_2018.jpg);
+    }
+    .bg-b{
+      width:60%;
+      height:220px;
+      background-color: aqua;
+      float:right;
+      background-size:100%;
+      background-image: url(./img/09_41_31__12_04_2018.jpg);
+    }
+    .bg-c{
+      width:60%;
+      height:220px;
+      background-color: aqua;
+      float:right;
+      background-size:100%;
+      background-image: url(./img/09_42_51__12_04_2018.jpg);
+    }
+    .bg-d{
+      width:60%;
+      height:220px;
+      background-color: aqua;
+      float:right;
+      background-size:100%;
+      background-image: url(./img/09_43_56__12_04_2018.jpg);
+    }
+    .bg-e{
+      width:60%;
+      height:220px;
+      background-color: aqua;
+      float:right;
+      background-size:100%;
+      background-image: url(./img/09_46_20__12_04_2018.jpg);
+    }
+    .pro-item-edit{
+      .flex;
+      .icon-jian{
+        .font(50px, #ccc);
+      }
+      .pro-num{
+        .font(30px, @text-align: center);
+        min-width: 60px;
+      }
+      .icon-jia{
+        .font(50px, @base-color);
+      }
+      .edit-active{
+        color: @base-color;
+      }
+    }
+  }
+}
