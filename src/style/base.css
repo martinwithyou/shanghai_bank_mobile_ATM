@@ -15,7 +15,10 @@ img{
   vertical-align: top;
   border:none;
 }
-
+img{
+  vertical-align: top;
+  border:none;
+}
 /*去除虚线*/
 input:focus,select:focus,textarea:focus,button:focus{
   outline: none;
